@@ -26,10 +26,10 @@
        <input type="submit" name="load_data" value="Load Data" />
  </form>
  <?php
-    $host = "fauziappsever.database.windows.net";
-    $user = "dicoding";
+    $host = "fauziallagan.database.windows.net";
+    $user = "fauziallagan";
     $pass = "Damkarpb211";
-    $db = "fauzidb";
+    $db = "dicodingdb";
 
     try {
         $conn = new PDO("sqlsrv:server = $host; Database = $db", $user, $pass);
